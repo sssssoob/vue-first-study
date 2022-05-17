@@ -1,7 +1,12 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link>   <!-- url 창에서 확인되는 주소에 해당하는 부분이 <router-link to="/" -->
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Home</router-link>                                       &nbsp;&nbsp;
+    <router-link to="/about">About</router-link>                                 &nbsp;&nbsp;
+    <router-link to="/databinding">Data Binding</router-link>                    &nbsp;&nbsp;
+    <router-link to="/databinding-html">Data Binding Html</router-link>          &nbsp;&nbsp;
+    <router-link to="/databinding-input-text">Data Binding Text</router-link>    &nbsp;&nbsp;
+    <router-link to="/databinding-input-number">Data Binding Number</router-link>  &nbsp;&nbsp;
+    <router-link to="/databinding-textarea">Data Binding Textarea</router-link>  &nbsp;&nbsp;
   </nav>
   <router-view/>
 </template>

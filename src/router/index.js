@@ -1,6 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router' //여기서 정의된 router는 main.js에 등록을 해줘야 실제 적용이 되어 사용할 수 있게 된다.
 import HomeView from '../views/HomeView.vue'     // 아래 routes 내의 component에 정의된 컴포넌트의 실제 src
-
+import DataBinding from '../views/DataBinding.vue';
+import DataBindingHtml from "@/views/DataBindingHtml";
+import DataBindingInputText from "@/views/DataBindingInputText";
+import DataBindingInputNumber from "@/views/DataBindingInputNumber";
+import DataBindingTextarea from "@/views/DataBindingTextarea";
 
 //routes 배열에 2개의 라우트가 등록되어 있음(home, about)
 const routes = [
@@ -25,6 +29,31 @@ const routes = [
     //home과 about 라우트의 가장 큰 차이는
     // - home : 사용자가 해당 path에 접근하지 않더라도 이미 vue파일을 import하는 것
     // - about : 사용자가 path에 접근하기 전까지는 vue파일에 대한 import가 일어나지 않는다.
+  },
+  {
+    path: '/databinding',
+    name: 'DataBinding',
+    component: DataBinding
+  },
+  {
+    path: '/databinding-html',
+    name: 'DataBindingHtml',
+    component: DataBindingHtml
+  },
+  {
+    path: '/databinding-input-text',
+    name: 'DataBindingInputText',
+    component: DataBindingInputText
+  },
+  {
+    path: '/databinding-input-number',
+    name: 'DataBindingInputNumber',
+    component: DataBindingInputNumber
+  },
+  {
+    path: '/databinding-textarea',
+    name: 'DataBindingTextarea',
+    component: DataBindingTextarea
   }
 ]
 
