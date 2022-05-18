@@ -1,12 +1,17 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link>                                       &nbsp;&nbsp;
-    <router-link to="/about">About</router-link>                                 &nbsp;&nbsp;
-    <router-link to="/databinding">Data Binding</router-link>                    &nbsp;&nbsp;
-    <router-link to="/databinding-html">Data Binding Html</router-link>          &nbsp;&nbsp;
-    <router-link to="/databinding-input-text">Data Binding Text</router-link>    &nbsp;&nbsp;
-    <router-link to="/databinding-input-number">Data Binding Number</router-link>  &nbsp;&nbsp;
-    <router-link to="/databinding-textarea">Data Binding Textarea</router-link>  &nbsp;&nbsp;
+    <router-link to="/">Home</router-link>                                          &nbsp;&nbsp;
+    <router-link to="/about">About</router-link>                                    &nbsp;&nbsp;
+    <router-link to="/databinding">Data Binding</router-link>                       &nbsp;&nbsp;
+    <router-link to="/databinding-html">Data Binding Html</router-link>             &nbsp;&nbsp;
+    <router-link to="/databinding-input-text">Data Binding Text</router-link>       &nbsp;&nbsp;
+    <router-link to="/databinding-input-number">Data Binding Number</router-link>   &nbsp;&nbsp;
+    <router-link to="/databinding-textarea">Data Binding Textarea</router-link>     &nbsp;&nbsp;
+    <router-link to="/databinding-checkbox">Data Binding checkbox</router-link>     <br>
+    <router-link to="/databinding-checkbox2">Data Binding checkbox2</router-link>   &nbsp;&nbsp;
+    <router-link to="/databinding-radio">Data Binding Radio</router-link>           &nbsp;&nbsp;
+    <router-link to="/databinding-attribute">Data Binding Attribute</router-link>   &nbsp;&nbsp;
+    <router-link to="/databinding-button">Data Binding Button</router-link>         &nbsp;&nbsp;
   </nav>
   <router-view/>
 </template>

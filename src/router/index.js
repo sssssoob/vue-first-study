@@ -5,6 +5,18 @@ import DataBindingHtml from "@/views/DataBindingHtml";
 import DataBindingInputText from "@/views/DataBindingInputText";
 import DataBindingInputNumber from "@/views/DataBindingInputNumber";
 import DataBindingTextarea from "@/views/DataBindingTextarea";
+import DataBindingCheckbox from "@/views/DataBindingCheckbox";
+import DataBindingCheckbox2 from "@/views/DataBindingCheckbox2";
+import DataBindingRadio from "@/views/DataBindingRadio";
+import DataBindingAttribute from "@/views/DataBindingAttribute";
+import DataBindingButton from "@/views/DataBindingButton";
+
+
+
+
+
+
+
 
 //routes 배열에 2개의 라우트가 등록되어 있음(home, about)
 const routes = [
@@ -54,6 +66,31 @@ const routes = [
     path: '/databinding-textarea',
     name: 'DataBindingTextarea',
     component: DataBindingTextarea
+  },
+  {
+    path: '/databinding-checkbox',
+    name: 'DataBindingCheckbox',
+    component: DataBindingCheckbox
+  },
+  {
+    path: '/databinding-checkbox2',
+    name: 'DataBindingCheckbox2',
+    component: DataBindingCheckbox2
+  },
+  {
+    path: '/databinding-radio',
+    name: 'DataBindingRadio',
+    component: DataBindingRadio
+  },
+  {
+    path: '/databinding-attribute',
+    name: 'DataBindingAttribute',
+    component: DataBindingAttribute
+  },
+  {
+    path: '/databinding-button',
+    name: 'DataBindingButton',
+    component: DataBindingButton
   }
 ]
 
