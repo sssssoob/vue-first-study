@@ -10,9 +10,11 @@ import DataBindingCheckbox2 from "@/views/DataBindingCheckbox2";
 import DataBindingRadio from "@/views/DataBindingRadio";
 import DataBindingAttribute from "@/views/DataBindingAttribute";
 import DataBindingButton from "@/views/DataBindingButton";
-
-
-
+import DataBindingList from "@/views/DataBindingList";
+import DataBindingList2 from "@/views/DataBindingList2";
+import NestedComponent from "@/views/NestedComponent";
+import ParentComponent from "@/views/ParentComponent";
+import ParentComponent2 from "@/views/ParentComponent2";
 
 
 
@@ -91,6 +93,31 @@ const routes = [
     path: '/databinding-button',
     name: 'DataBindingButton',
     component: DataBindingButton
+  },
+  {
+    path: '/databinding-list',
+    name: 'DataBindingList',
+    component: DataBindingList
+  },
+  {
+    path: '/databinding-list2',
+    name: 'DataBindingList2',
+    component: DataBindingList2
+  },
+  {
+    path: '/nested-component',
+    name: 'NestedComponent',
+    component: NestedComponent
+  },
+  {
+    path: '/parent-component',
+    name: 'ParentComponent',
+    component: ParentComponent
+  },
+  {
+    path: '/parent-component2',
+    name: 'ParentComponent2',
+    component: ParentComponent2
   }
 ]
 
