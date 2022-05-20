@@ -15,6 +15,8 @@ import DataBindingList2 from "@/views/DataBindingList2";
 import NestedComponent from "@/views/NestedComponent";
 import ParentComponent from "@/views/ParentComponent";
 import ParentComponent2 from "@/views/ParentComponent2";
+import ParentComponent3 from "@/views/ParentComponent3";
+import SlotUseModalLayout from "@/views/SlotUseModalLayout";
 
 
 
@@ -118,6 +120,16 @@ const routes = [
     path: '/parent-component2',
     name: 'ParentComponent2',
     component: ParentComponent2
+  },
+  {
+    path: '/parent-component3',
+    name: 'ParentComponent3',
+    component: ParentComponent3
+  },
+  {
+    path: '/slot-modal',
+    name: 'SlotUseModalLayout',
+    component: SlotUseModalLayout
   }
 ]
 

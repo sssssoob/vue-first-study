@@ -20,6 +20,9 @@
     <router-link to="/nested-component">NestedComponent</router-link>             &nbsp;&nbsp;
     <router-link to="/parent-component">ParentComponent</router-link>             &nbsp;&nbsp;
     <router-link to="/parent-component2">ParentComponent2</router-link>             &nbsp;&nbsp;
+    <router-link to="/parent-component3">ParentComponent3</router-link>             <br>
+    -------------------------------------------------------------------------       <br>
+    <router-link to="/slot-modal">Slot Modal</router-link>             &nbsp;&nbsp;
 
 
   </nav>
